@@ -1,0 +1,188 @@
+nav,
+p,
+section,
+footer {
+    display: block;
+}
+
+body {
+    background-color: rgb(250, 250, 230);
+    margin: 0px;
+}
+
+div.content {
+    background-color: rgb(250, 250, 230);
+}
+
+nav.linksbar {
+    height: 120px;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(250, 250, 230);
+    position: fixed;
+    box-shadow: 0px 1px 1px lightslategray;
+    z-index: 1000;
+    text-shadow: 0px 0px 1px black;
+}
+
+nav.linksbar h1 {
+    display: block;
+    font-size: 35pt;
+    font-weight: bolder;
+    font-family: Papyrus, Courier New, Georgia, monospace, Serif;
+    line-height: 30px;
+    float: right;
+    margin: 13px 0px 10px 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+nav.linksbar img {
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-top: 10px;
+    float: right;
+}
+
+nav.linksbar li {
+    display: block;
+    font-size: 15px;
+    font-family: Papyrus, Courier New, Georgia, monospace, Serif;
+    font-weight: bolder;
+    color: black;
+    height: 25px;
+    line-height: 80px;
+    width: 12%;
+    float: left;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 0%;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav.linksbar li a {
+    color: black;
+}
+
+nav.linksbar li:hover {
+    color: rgb(0, 120, 0);
+    text-shadow: 0px 0px 1px green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+div.image {
+    display: flex;
+    justify-content: center;
+    background-color: darkseagreen;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 100px 0px 20px 50px;
+}
+
+div.image img {
+    box-shadow: 0px 2px 2px 1px rgb(0, 46, 0);
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+#names {
+    font-size: 30pt;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 1px 1px darkgreen;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+div.image section {
+    display: block;
+}
+
+div.intro {
+    margin: 10px;
+    padding: 10px;
+}
+
+button.collect {
+    font-size: 75%;
+    font-weight: bolder;
+    font-family: Papyrus, Courier New, Georgia, monospace, Serif;
+    line-height: 100%;
+    width: 40%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 0% 1% 0%;
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    box-shadow: 0px 1px 5px black;
+    z-index: 1;
+}
+
+button.collect a {
+    color: white;
+}
+
+section.guide {
+    font-style: italic;
+}
+
+section {
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 0px 30px 0px;
+    padding: 10px 120px 10px 120px;
+}
+
+section ul {
+    list-style: lower-roman;
+}
+
+section ul a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+section h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    color: rgb(133, 95, 80);
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    text-shadow: 0px 1px 2px black;
+}
+
+section h4 {
+    font-size: 25pt;
+    color: rgb(87, 54, 54);
+    text-indent: 30px;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 2px black;
+}
+
+footer {
+    text-align: center;
+    background-image: URL("../Images/plant.jpg");
+    background-size: cover;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px black;
+    height: 35%;
+    width: 100%;
+    font-size: 20pt;
+    padding: 1px 0px 30px 0px;
+}
+
+footer a {
+    color: white;
+}
